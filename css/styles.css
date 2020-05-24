@@ -1,0 +1,53 @@
+.advert {
+  background-image: url(../pitza.png);
+  background-size: cover;
+  width: auto;
+  height: 200px;   
+ }
+ body{
+     background-color: gray;
+     color: white;
+ }
+ .jumbotron {
+     background-color: maroon;
+ }
+ #size {
+     margin: 30px;
+     
+ }
+ #crust {
+     padding: 20px;
+     margin: 20px;
+ }
+ .hawaianPizz,.Deluxe,.bacon,.vegie {
+     display: none;
+     background-color: pink;
+     font-size: 25px;
+     color: black;
+     opacity: 0.6
+ }
+ .available {
+     text-align: center;
+ }
+ .results {
+     background-image: url(../background.jpg);
+     background-size: auto;
+     text-align: center;
+     
+ }
+ .Una {
+     font-family: 'Lacquer' ;
+ }
+ .available, .pizz1, .pizz2, .pizz3 ,.pizz4 {
+     font-family: 'Shadows Into Light' ;
+     font-size: larger;
+     color: black;
+ }
+ .para {
+     font-family: 'Courgette', cursive ;
+     padding: 30px;
+ }
+ .results {
+     padding: 20px;
+     margin: 20px;
+ }
