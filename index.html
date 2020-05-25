@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>pizza-place </title>
+</head>
+
+<body class="container-fluid">
+    <div id="Home">
+        <div class="row pizz">
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="jumbotron">
+                        <h1 class=" text-center Una"><b>Una's Pizzeria</b></h1>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-md-4">
+                <a href="#Home">Home</a>
+            </div>
+            <div class="col-md-4">
+                <a href="#Menu_food"> Menu</a>
+            </div>
+            <div class="col-md-4">
+                <a href="#contacts">Contacts </a>
+            </div>
+        </div>
+        <div class="advert">
+            
+        </div>
+        <div class="para">
+            <p>Get the best pizza's at the best price available here .The homemade pizza dough is produced in-house daily
+                and is another reason why the pizza here always tastes better. The Twisty Bread, the signature Wingz and the
+                delicious Double Meal are additional value .Here you get to choose the pizza of your choice and the delivery
+        </div>
+       
+    </div>
+
+
+    <div id="Menu_food">
+        <p class="available"><b>Types of pizza available</b></p>
+        <div class="row text-center">
+            <div class="col-md-3 pizz1">
+                <img src="wain.jpg" height="200" width="200">
+                <p ><b> Hawaian pizza</b></p>
+            </div>
+            <div class="col-md-3 pizz2">
+                <img src="deluxe.jpg" height="200" width="200">
+                <p ><b>Meat Deluxe</b></p>
+            </div>
+            <div class="col-md-3 pizz3">
+                <img src="bbq.jpg" height="200" width="200">
+                <p><b>Chicken bacon barbeque </b></p>
+            </div>
+            <div class="col-md-3 pizz4">
+                <img src="vgs.jpg" height="200" width="200">
+                <p ><b>Vegeterian pizza</b></p>
+            </div>
+        </div>
+        <form >
+            <div class="row">
+                <div class="col-md-6 text-centre">
+                    <div class="container decision">
+                        <p><label> Which pizza do you want?</label> </p>
+                        <select  class="which">
+                        <option value="Hawaian">Hawaian Pizza</option>
+                        <option value="MeatDeluxe">Meat Deluxe</option>
+                        <option value="chickenbacon">Chicken bacon BBQ</option>
+                        <option value="Vegeterianpizza">Vegie pizza</option>
+                    </select>
+                        <P><label for="pizza-size">Choose which pizza size you would want:</label> </P>
+                        <select class="form-control " id="pizzaSize">
+                            <option value=""> </option>
+                            <option value="small">Small @sh550</option>
+                            <option value="medium">Medium @sh750</option>
+                            <option value="large">Large @sh950</option>
+                            <option value="extraLarge">Extra large @sh1200</option>
+                        </select>
+                        <div class="crust">
+                            <p><b>Which crust would you want?</b></p>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="typo" value="crispy"> Cripsy @sh100
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="radio" name="typo" value="stuffed">Stuffed @sh50
+                                </label>
+                            </div>
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="typo" value="glutten-free"> Glutten-free @sh120
+                                </label>
+                            </div>
+        
+                        </div>
+                        <div class="toppings">
+                            <p>Decide on the toppings you would like:</p>
+                            <select class="form-control" id="pizzaToppings">
+                                <option value=""> </option>
+                                <option value="pepperoni">pepperoni @ sh150</option>
+                                <option value="mushroom">Mushrooms @ sh100</option>
+                                <option value="onion">Onions @ sh100</option>
+                                <option value="sausages">Sausages @sh150</option>
+                                <option value="Bacon">Bacon @ sh200</option>
+                                <option value="cheese">Cheese @ sh150</option>
+                                <option value="olive">Olives @sh100</option>
+                            </select>
+                        </div>
+                        <div class="numbers">
+                            <label>How many pizzas do you want?</label>
+                            <input type="number" id="noPizza" class="form-control">
+                            <p>Do you want your pizza to be delivered?</p>
+                            <label>
+                                <input type="radio" name="delivery" value="yes"> yes
+                            </label>
+                            <label>
+                                <input type="radio" name="delivery" value="no"> no
+                            </label>
+                        </div>
+                        <button id="values" type="button" class="btn-orange">Checkout</button>
+                    </div>
+            </div>
+                </div>
+            </div>
+            
+    </form>
+    <div class="results">
+        <p>Type: <span class="typeOfPizza"><span></p>
+        <p>Crust: <span class="crustresult"></span></p>
+        <p>Size: <span class="sizeResult"></span></p>
+        <p>Topping: <span class="toppingsResult"></span></p>
+        <p>Number: <span class="numberResult"></span></p>
+        <p>Total: <span class="total"></span></p>
+    </div>
+    <div id="contacts">
+        <div class="contact-overlay">
+            <h1 class="text-center contact text-white">Contacts:</h1>
+            <div class="row">
+                 
+                <div class="col-md-5">
+                    <h1 class="text-white text-center"> Call Us </h1>
+                    <p class="text-center">+254 756 891 777</p>
+                    
+                </div>
+                <div class="col-md-5">
+                    <h4 class="text-center get-pizza">We love feedback..send us a mail</h4>
+                    <p> at Unapizzeria@gmail.com</p>
+                </div>
+                <div class="col-md-2">
+                    <p>Share your experiences in social media</p>
+                   <a href="https://twitter.com/?lang=en"> <img src="twitter.png" ></a>
+                 <a href="https://web.facebook.com/?_rdc=1&_rdr"><img src="facebook.png"></a>   
+                 <a href="https://www.instagram.com/"> <img src="instagram.png" height="45" width="45"> </a>
+                </div>
+            </div>
+
+</body>
+
+</html>
