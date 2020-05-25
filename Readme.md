@@ -1,23 +1,23 @@
-Ryan Bistro:
+#Ryan Bistro:
 This app simply assists one to make their order by checking out the prices and how they would like their pizza made.
 
-Author
+###Author
 By: Ryan Mwaniki
 
-Description:
+###Description:
  This is a pizza application that displays the different types of pizzas available where by the user chooses the their pizza of their choice and sets its to however they would like it to made.They also get the chance to choose the type off toppings ,the pizza size and the type of crust. 
  
- Setup Instructions:
+ ###Setup Instructions:
   *create a folder
-  *create and git clone  
+  *create and git clone  : https://ryan541.github.io/Pizza/
 
-Technologies Used:
+###Technologies Used:
 HTML, JS ,jQuery and CSS
 
-Support and contact details:
+###Support and contact details:
 If there is a problem contact ;0713354068
 
-License:
+#License:
 MIT License
 
 
