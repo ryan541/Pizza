@@ -1,5 +1,5 @@
 .advert {
-  background-image: url(../pitza.png);
+  background-image: url(../images/pitza.png);
   background-size: cover;
   width: auto;
   height: 200px;   
@@ -30,7 +30,7 @@
      text-align: center;
  }
  .results {
-     background-image: url(../background.jpg);
+     background-image: url(../images/background.jpg);
      background-size: auto;
      text-align: center;
      
@@ -51,3 +51,4 @@
      padding: 20px;
      margin: 20px;
  }
+ 
